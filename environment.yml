@@ -1,0 +1,22 @@
+# to install this environment:
+#     conda env create --file environment.yml
+# or if using micromamba:
+#     micromamba create -f environment.yml
+name: snail-datapkg
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      - zenodo_get # data access
+      - nismod-snail # raster-vector intersections
+      - snkit # spatial networks
+      - -e . # helper functions from "snail_datapkg"
+  - matplotlib # basic plotting
+  - geopandas # geospatial dataframes
+  - rasterio # raster operations
+  - rioxarray # raster operations
+  - jupyter # notebook support
+  - nbstripout # notebooks in git
