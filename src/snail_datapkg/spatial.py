@@ -29,14 +29,16 @@ def polygonise_targets(targets_path: str, crs=None) -> gpd.GeoDataFrame:
 
     # Targets: Binary raster showing locations predicted to be connected to distribution grid.
     with rasterio.open(targets_path) as dataset:
-        if not crs:
-            crs = dataset.crs.data
+        if crs is None:
+            crs = dataset.crs
 
         # Read the dataset's valid data mask as a ndarray.
         try:
             # Extract feature shapes and values from the array.
             data = dataset.read(1)
-            for geom, val in rasterio.features.shapes(data):
+            for geom, val in rasterio.features.shapes(
+                data, transform=dataset.transform
+            ):
                 if val > 0:
                     feature = shapely.geometry.shape(geom)
                     geoms.append(feature)
