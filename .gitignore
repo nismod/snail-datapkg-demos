@@ -1,3 +1,5 @@
 incoming_data
 processed_data
+results
+*.qgz
 __pycache__
