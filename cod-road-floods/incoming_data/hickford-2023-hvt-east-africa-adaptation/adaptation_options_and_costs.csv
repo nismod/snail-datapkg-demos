@@ -1,0 +1,7 @@
+asset_name,asset_details,adaptation_option,option_unit_cost,asset_dimensions,initial_investment_cost_per_unit,periodic_maintenance_cost_per_unit,routine_maintenance_cost_per_unit,periodic_maintenance_intervals_years,routine_maintenance_intervals_years,a_scale_damage_fraction,b_translate_damage_fraction,c_ignore_up_to_probability,c_ignore_up_to_rp
+road,all,Swales,USD/km,length,13430,2686,134,5,1,0.965,0,0.05,20
+road,all,Spillways,USD/km,length,176193,35239,1762,5,1,0.9,0,0.1,10
+road,all,Mobile flood embankments,USD/km,length,573068,114614,5731,5,1,1,-0.2,0,1
+road,all,Flood Wall,USD/km,length,1230000,246000,12300,5,1,1,0,0.05,20
+road,paved,Drainage (rehabilitation),USD/km,length,46843,9369,468,5,1,0.78,-0.1,0.02,50
+road,unpaved,Upgrading to paved ,USD/lane-km,area,247159,49432,2472,5,1,1,0,0,1

@@ -1,0 +1,22 @@
+# Unpaved:
+# Huizinga et al. 2017 European Commission JRC Techical Report
+# https://publications.jrc.ec.europa.eu/repository/handle/JRC105688
+# table 3-6: average continental damage function for Asia - infrastrucutre
+# 20221101: added fraction=0 for depth=0.1 to screen out very small 'floods'
+# Paved:
+# https://zenodo.org/records/10203846
+# Table_D2_Multi-Hazard_Fragility_and_Vulnerability_Curves_V1.0.0.xlsx
+# Nirandjan 2024 V1.0 F_Vuln_Depth F7.2
+depth_m,unpaved,paved
+0.0,0.0,0.0
+0.1,0.0,0.0
+0.25,0.1,0.107
+0.5,0.25,0.214
+1.0,0.42,0.373
+1.5,0.55,0.604
+2.0,0.65,0.710
+2.5,0.725,0.759
+3.0,0.8,0.808
+4.0,0.9,0.887
+5.0,1.0,0.969
+6.0,1.0,1.0
