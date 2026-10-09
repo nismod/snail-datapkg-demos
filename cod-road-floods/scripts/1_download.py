@@ -22,7 +22,7 @@ if __name__ == "__main__":
             "nirandjan-2024-vulnerabilty/Table_D3_Costs_V1.1.0.xlsx",
         ),
         (
-            "https://data.humdata.org/dataset/104bfeb2-f102-4770-90a7-fc8372b488f0/resource/e54fa557-96f8-4144-af40-4a309ff9779f/download/democratic-republic-of-the-congo-shapefiles.zip",
+            "https://data.humdata.org/dataset/104bfeb2-f102-4770-90a7-fc8372b488f0/resource/5ad77a8c-5f43-42ed-a5d8-5cd8566bb7ab/download/democratic-republic-of-the-congo-shapefiles.zip",
             "healthsites/democratic-republic-of-the-congo-shapefiles.zip",
         ),
     ]
