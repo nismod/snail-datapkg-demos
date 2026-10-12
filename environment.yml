@@ -12,6 +12,7 @@ dependencies:
   - pip:
       - zenodo_get # data access
       - nismod-snail # raster-vector intersections
+      - numpy-financial # net-present value calculations
       - snkit # spatial networks
       - -e . # helper functions from "snail_datapkg"
   - matplotlib # basic plotting
