@@ -3,3 +3,4 @@ processed_data
 results
 *.qgz
 __pycache__
+.ipynb_checkpoints
