@@ -15,6 +15,7 @@ dependencies:
       - snkit # spatial networks
       - -e . # helper functions from "snail_datapkg"
   - matplotlib # basic plotting
+  - nbstripout # clean outputs from notebooks
   - geopandas # geospatial dataframes
   - rasterio # raster operations
   - rasterstats # zonal statistics
