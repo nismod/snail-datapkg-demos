@@ -2,5 +2,6 @@ incoming_data
 processed_data
 results
 *.qgz
+*.zip
 __pycache__
 .ipynb_checkpoints
